@@ -14,9 +14,25 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+      .wrapper {
+      min-height: 640px;
+      margin-bottom: -50px;
+      }
+      .footer,
+      .push {
+          height: 50px;
+          font-weight: bold;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #fff;
+      }
     </style>
   </head>
   <body>
-      <iframe style="border: 0; width: 350px; height: 555px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=2390579097/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://heatshieldpakora.bandcamp.com/album/rainy-days">Rainy Days by Heatshield Pakora</a></iframe>
+    <div class="wrapper">
+          <iframe style="border: 0; width: 350px; height: 555px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=2390579097/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://heatshieldpakora.bandcamp.com/album/rainy-days">Rainy Days by Heatshield Pakora</a></iframe>
+          &nbsp;
+          <div class="push"></div>
+      </div>
+      <footer class="footer">&copy; 2024. Andrew Miller.</footer>
   </body>
 </html>
